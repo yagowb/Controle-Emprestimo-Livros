@@ -10,19 +10,15 @@ public class Main {
 
     List<Livro> livros = new ArrayList<>();
 
+    Livro livro1 = new Livro("0148", "Arte da Guerra", "Sun Tzu", 2016, 2);
+
 
     Professor prof1 = new Professor("114569", "Leonardo Taddeo", "leotaddeo@unifor.br", "40041122", "Doutor");
 
+    Emprestimo emprestimo = new Emprestimo();
 
-    /*
-    aluno1.emprestaLivro();
-    aluno2.emprestaLivro();
-
-    prof1.emprestaLivro();
-    prof1.devolveLivro();
-
-    mostrarEmprestimos();
-     */
+    emprestimo.setPessoa(aluno1);
+    emprestimo.emprestaLivro(livro1);
 
     }
 }

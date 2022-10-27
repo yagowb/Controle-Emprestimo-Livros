@@ -18,7 +18,6 @@ public class Livro {
     }
 
 
-
     ////////////getters & setters//////////////
 
     public String getCodigo() {
