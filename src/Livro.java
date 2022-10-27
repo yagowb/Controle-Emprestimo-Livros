@@ -18,11 +18,6 @@ public class Livro {
     }
 
 
-    ////////////métodos///////////////////
-
-
-
-
 
     ////////////getters & setters//////////////
 

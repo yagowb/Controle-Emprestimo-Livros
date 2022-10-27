@@ -13,10 +13,6 @@ public class Aluno extends Pessoa{
     }
 
 
-    ///////////métodos///////////////
-
-
-
 
     //////////////getters & setters//////////
 
