@@ -1,8 +1,7 @@
-public class Professor extends Pessoa{
+public class Professor extends Pessoa {
 
 
     private String titulacao;
-
 
 
     ///////////construtores////////////
@@ -12,17 +11,5 @@ public class Professor extends Pessoa{
         this.titulacao = titulacao;
     }
 
-
-
-
-    //////////////getters & setters//////////
-
-    public String getTitulacao() {
-        return titulacao;
-    }
-
-    public void setTitulacao(String titulacao) {
-        this.titulacao = titulacao;
-    }
 
 }

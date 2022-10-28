@@ -1,10 +1,9 @@
 public abstract class Pessoa {
 
     private String matricula;
-    private String nome;
+    String nome;
     private String email;
     private String telefone;
-
 
 
     ///////construtores//////////
@@ -14,42 +13,4 @@ public abstract class Pessoa {
         this.email = email;
         this.telefone = telefone;
     }
-
-
-
-
-    //////////////getters & setters//////////
-
-    public String getMatricula() {
-        return matricula;
-    }
-
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
 }
